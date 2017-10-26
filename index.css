@@ -1,0 +1,74 @@
+/* Paste in code from your old files to save time and avoid typos! */
+
+body {
+	background-color:black;
+	height:100vh;
+	width: 100vw;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
+.titlerow{
+	height:20vh;
+	width:100vh;
+}
+
+.row{
+	height:40vh;
+	width:100vw;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.row2{
+	height:40vh;
+	width:100vw;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.box{
+	height:100%;
+	width:20%;
+}
+
+.pink{
+	background-color:pink;
+}
+
+.purple{
+	background-color:purple;
+}
+
+/*Images for purple boxes*/
+
+img {
+    padding-top: 10%;
+    padding-right: 10p%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    width: 80%;
+	height: 80%;
+}
+
+p {
+	 padding-top: 10%;
+    padding-right: 55p%;
+    padding-bottom: 10%;
+    padding-left: 55%;
+	
+}
+
+@media screen and (max-width:800px)
+	{
+	.purple{width:100vw;
+	     height:50%;}
+	.pink{width:100vw;
+	        height:50%;}
+	img{width:40vw;
+	    height:40vh;}
+	}
+
+
+	
